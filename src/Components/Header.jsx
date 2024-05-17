@@ -54,13 +54,13 @@ export default function Header() {
               <nav className={`  h-fit pb-3 z-40 bg-none fixed top-0 w-[100%] transition-colors duration-700   ${show?" bg-[#0000007d] h-fit   md:h-16 ":" "} ${scrolled || show ? 'bg-[#000000cb] backdrop-blur-lg  ' : 'bg-transparent  '}` }>
 
                       
-                  <div className='flex justify-between px-3  md:px-40 pt-3'>
+                  <div className='flex flex-col md:flex-row justify-between px-3  md:px-40 pt-3'>
             
                   
                   <div className=' w-fit ml-8 '>
                       <img src="./assets/image/Logo.png" className=' h-10 md:h-14' alt="" />
                   </div>
-                      <GiHamburgerMenu className=' text-white text-xl mt-4 md:hidden flex absolute  right-8' onClick={showLink} />
+                      <GiHamburgerMenu className=' text-white text-xl md:hidden top-6 flex absolute  right-8' onClick={showLink} />
                       <ul className={` md:flex gap-16  w-fit items-center   ${show?"block my-[4rem] mx-auto":"hidden"}  `}>
               <li className={` text-white text-2xl text-center w-full  ${show ? "mt-8" : ""} hover:text-[#53bf63]`}><a href="#home">Home</a></li>
               <li className={` text-white text-2xl text-center w-full  ${show ? "mt-8" : ""}  z-10 hover:text-[#53bf63] `} ><a href="#about">About</a></li>
