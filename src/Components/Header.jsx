@@ -70,25 +70,27 @@ export default function Header() {
         </nav>
               <div className='absolute top-[-15rem] right-[28rem] w-[35rem] h-[25rem]   z-0 border rounded-[100%] bg-[#42954f] blur-[5rem]'></div>
               <div id='2nd' className='absolute top-[10rem] right-[-14rem] w-[16rem] h-[16rem]   z-0 border rounded-[100%] bg-[#42954f] blur-[5rem]'></div>
-              <div>
-                  <h1 className=' text-3xl text-center text-white  mt-[11rem]' data-aos="fade-up" data-aos-duration="3000" >Hey!! I am Amish Khan</h1>
-                  <h1 className=" md:text-6xl text-4xl font-serif text-[#53bf63] font-extrabold text-center mt-12 " data-aos="fade-up" data-aos-duration="3000" >
+        <div data-aos="fade-up" data-aos-duration="3000">
+              <div >
+                  <h1 className=' text-3xl text-center text-white  mt-[11rem]' >Hey!! I am Amish Khan</h1>
+                  <h1 className=" md:text-6xl text-4xl font-serif text-[#53bf63] font-extrabold text-center mt-12 " >
                       FULL-STACK WEB DEVELOPER
                   </h1>
-                  <p className=' w-[80%] md:w-1/2 mx-auto text-white text-lg md:text-xl text-center mt-12'data-aos="fade-up" data-aos-duration="3000" >I am a passionate and ambitious web developer with a strong desire to create meaningful and innovative web applications. While I may be relatively new to the field, my enthusiasm for coding and continuous learning drives me to excel in every project I undertake.</p>
+                  <p className=' w-[80%] md:w-1/2 mx-auto text-white text-lg md:text-xl text-center mt-12' >I am a passionate and ambitious web developer with a strong desire to create meaningful and innovative web applications. While I may be relatively new to the field, my enthusiasm for coding and continuous learning drives me to excel in every project I undertake.</p>
               </div>
-              <div className='flex justify-center mt-12 gap-8 z-40' data-aos="fade-up" data-aos-duration="3000" >
+              <div className='flex justify-center mt-12 gap-8 z-40'  >
               <a href="https://github.com/AMISH-KHAN" target='_blank'><FaGithub className=' text-white text-5xl' /></a>
                   <a href="https://www.linkedin.com/in/amish-khan/" target='_blank'><FaLinkedin className=' text-white text-5xl' /></a>
                   <a href="https://twitter.com/Amishk7618" target='_blank'> <FaSquareXTwitter  className=' text-white text-5xl'/></a>
               </div>
-              <a href="https://drive.google.com/file/d/1FuHndcmzwyIEvwoR9M7AnoLpwtF4qj0V/view?usp=sharing"  target='_blank' data-aos="fade-up" data-aos-duration="3000" >
+              <a href="https://drive.google.com/file/d/1FuHndcmzwyIEvwoR9M7AnoLpwtF4qj0V/view?usp=sharing"  target='_blank'  >
               <div className=' w-fit m-auto px-8 py-2 text-white  my-12 border border-[#53bf63] hover:bg-[#53bf63] rounded-3xl cursor-pointer flex gap-2  items-center'>
                  <FaDownload /> <span>Resume</span>  
                   </div>
                   </a>
+              </div>
               <div className='absolute bottom-[-10rem] left-[-4rem] w-1/2 h-[20rem]   z-0 border rounded-[100%] bg-[#42954f] blur-[5rem]'></div>
-    </header>
+      </header>
     </>
   )
 }
