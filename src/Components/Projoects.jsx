@@ -19,8 +19,8 @@ const projectarr = [
     {
         name: "Portfolio",
         disc: "Portfolio made using react and TailwindCss",
-        code: "https://github.com/AMISH-KHAN/Tic-Tac_toe-app",
-        live: "https://tic-tac-toe-8a0g.onrender.com/",
+        code: "https://github.com/AMISH-KHAN/MordernPortfolio",
+        live: "https://amishkhan.netlify.app/",
         image:"./assets/image/MordernPortfolio.png"
     }
 ]
@@ -48,12 +48,12 @@ export default function Projoects() {
                                     {/* <div className='flex justify-between'> */}
                                                           
                                     
-                                    <a href={`${project.live}`} target='_blank'>
+                                    {project.live?<a href={`${project.live}`} target='_blank'>
                                         <div
                                             class="absolute bottom-0 left-0 bg-[#000000ae]  px-4 py-2 text-white text-sm hover:bg-[#000000ce] hover:text-[#53bf63]  transition duration-500 ease-in-out">
                                             Live
                                         </div>
-                                                      </a>
+                                                      </a>:""}
                                                       
                                     <a href={`${project.code}`} target='_blank' >
                                         <div
