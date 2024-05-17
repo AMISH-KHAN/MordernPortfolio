@@ -58,9 +58,9 @@ export default function Header() {
             
                   
                   <div className=' w-fit ml-8 '>
-                      <img src="./public/assets/image/Logo.png" className=' h-14' alt="" />
+                      <img src="./public/assets/image/Logo.png" className=' h-10 md:h-14' alt="" />
                   </div>
-                      <GiHamburgerMenu className=' text-white text-5xl md:hidden flex absolute  right-8' onClick={showLink} />
+                      <GiHamburgerMenu className=' text-white text-xl mt-4 md:hidden flex absolute  right-8' onClick={showLink} />
                       <ul className={` md:flex gap-16  w-fit items-center   ${show?"block my-[4rem] mx-auto":"hidden"}  `}>
               <li className={` text-white text-2xl text-center w-full  ${show ? "mt-8" : ""} hover:text-[#53bf63]`}><a href="#home">Home</a></li>
               <li className={` text-white text-2xl text-center w-full  ${show ? "mt-8" : ""}  z-10 hover:text-[#53bf63] `} ><a href="#about">About</a></li>

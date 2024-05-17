@@ -33,7 +33,7 @@ export default function Projoects() {
               <h1 className='h-[7rem] bg-black text-white text-3xl flex items-center justify-center'>Projects </h1>
               <div>
               <div class="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
-                      <div class="flex justify-between gap-10"> 
+                      <div class="flex md:flex-row flex-col justify-between gap-10"> 
                           {projectarr.map((project, index) => {
                               return (
                                 <div class="rounded overflow-hidden shadow-lg shadow-[#53bf63] ">
