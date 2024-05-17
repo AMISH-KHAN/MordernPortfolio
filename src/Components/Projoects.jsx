@@ -35,7 +35,7 @@ export default function Projoects() {
                       <div class="flex md:flex-row flex-col justify-between gap-10"> 
                           {projectarr.map((project, index) => {
                               return (
-                                <div class="rounded overflow-hidden shadow-lg shadow-[#53bf63] ">
+                                <div class="rounded overflow-hidden shadow-lg shadow-[#53bf63] " data-aos="zoom-in" data-aos-duration="1500">
                                 <div class="relative">
                                           <img class="w-full h-[13rem]"
                                               src={`${project.image}`}

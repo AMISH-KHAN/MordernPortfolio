@@ -14,15 +14,15 @@ export default function About() {
                   <div className=' py-52 px-0 md:px-52 flex justify-center align-middle '>
           <div className='flex gap-20 justify-center align-middle lg:flex-row md:flex-col flex-col w-[80rem] '>
             <div className="relative top-[6rem">
-              <div className=' w-56 md:w-[25rem] mx-auto  mb-12 '>
+              <div className=' w-56 md:w-[25rem] mx-auto  mb-12 ' data-aos="zoom-in" data-aos-duration="1500" >
               <img src="./assets/image/mumbai1.jpeg" className='rounded-xl h-[25rem]  md:h-[38rem] object-cover ' width={"100%"}  alt="" />
               </div>
             </div>
             <div className=" w-[80%] mx-auto md:mx-0 md:w-80 text-white">
-              <h1  className='text-5xl font-light font-sans mb-4'>Amish khan</h1>
-              <h1 className='text-4xl font-semibold font-sans mb-4 text-[#53bf63]'>Web Developer</h1>
+              <h1  className='text-5xl font-light font-sans mb-4' data-aos="fade-up" >Amish khan</h1>
+              <h1 className='text-4xl font-semibold font-sans mb-4 text-[#53bf63]' data-aos="fade-up" >Web Developer</h1>
               <div className=''> 
-          <div>
+          <div data-aos="fade-up" >
             <h1 className='text-xl font-light font-sans '>
               Education
             </h1>
@@ -67,58 +67,58 @@ export default function About() {
                   
         
                   <div className='flex flex-col justify-center'>
-          <h1 className='text-6xl font-light font-sans text-center text-white'>My Skills</h1>
+          <h1 className='text-6xl font-light font-sans text-center text-white' data-aos="fade-up" >My Skills</h1>
           
             <div className="flex  w-9/12 my-12 mx-auto justify-evenly gap-14  md:px-52 align-middle flex-wrap ">
-              <div className='text-6xl rounded-3xl text-white shadow-lg shadow-[#53bf63]/50  p-3'>
+              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'data-aos="fade-up" >
                 <FaHtml5 />
                 <p className='text-sm text-center mx-auto'> HTML</p>
               </div>
-              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'>
+              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'data-aos="fade-up" >
               <FaCss3Alt />
                 <p className='text-sm text-center mx-auto'> CSS</p>
               </div>
-              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'>
+              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'data-aos="fade-up" >
               <TbBrandJavascript />
                 <p className='text-sm text-center mx-auto'> Javascript</p>
               </div>
-              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'>
+              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'data-aos="fade-up" >
               <FaReact />
                 <p className='text-sm text-center mx-auto'> React</p>
               </div>
-              <div className='text-6xl text-center rounded-3xl text-white shadow-lg shadow-[#53bf63]/50 p-3'>
+              <div className='text-6xl text-center rounded-3xl text-white shadow-lg shadow-[#53bf63]/50 p-3' data-aos="fade-up" >
               <SiTailwindcss />
                 <p className='text-sm text-center mx-auto text-white' >Tailwindcss</p>
               </div>
-              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'>
+              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'data-aos="fade-up" >
               <FaBootstrap />
                 <p className='text-sm text-center mx-auto'> Bootstrap</p>
               </div>
-              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'>
+              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'data-aos="fade-up" >
               <SiRedux />
                 <p className='text-sm text-center mx-auto'> Redux</p>
               </div>
-              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'>
+              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'data-aos="fade-up" >
               <FaNode />
                 <p className='text-sm text-center mx-auto'> NodeJs</p>
               </div>
-              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'>
+              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'data-aos="fade-up" >
               <SiExpress />
                 <p className='text-sm text-center mx-auto'> Express</p>
               </div>
-              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'>
+              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'data-aos="fade-up" >
               <SiMongodb/>
                 <p className='text-sm text-center mx-auto'> MongoDb</p>
             </div>
-              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'>
+              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'data-aos="fade-up" >
               <SiMongoose />
                 <p className='text-sm text-center mx-auto'> Mongoose</p>
               </div>
-              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'>
+              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'data-aos="fade-up" >
               < FaGitAlt  />
                 <p className='text-sm text-center mx-auto'> Git</p>
               </div>
-              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'>
+              <div className='text-6xl rounded-3xl text-white p-3 shadow-lg shadow-[#53bf63]/50'data-aos="fade-up" >
               < FaGithub  />
                 <p className='text-sm text-center mx-auto'> Github</p>
               </div>
