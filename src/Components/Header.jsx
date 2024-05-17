@@ -50,7 +50,7 @@ export default function Header() {
 
   return (
       <>
-    <header className=' pb-20  overflow-hidden w-full relative'>
+    <header className=' pb-20  overflow-hidden w-full relative' id='home'>
               <nav className={`  h-fit pb-3 z-40 bg-none fixed top-0 w-[100%] transition-colors duration-700   ${show?" bg-[#0000007d] h-fit   md:h-16 ":" "} ${scrolled || show ? 'bg-[#000000cb] backdrop-blur-lg  ' : 'bg-transparent  '}` }>
 
                       
@@ -62,9 +62,9 @@ export default function Header() {
                   </div>
                       <GiHamburgerMenu className=' text-white text-5xl md:hidden flex absolute  right-8' onClick={showLink} />
                       <ul className={` md:flex gap-16  w-fit items-center   ${show?"block my-[4rem] mx-auto":"hidden"}  `}>
-              <li className={` text-white text-2xl   ${show ? "mt-8" : ""}  z-10 hover:text-[#53bf63] `} ><a href="#">About</a></li>
-              <li className={` text-white text-2xl   ${show ? "mt-8" : ""} hover:text-[#53bf63]`}><a href="#">Projects</a></li>
-              <li className={` text-white text-2xl   ${show ? "mt-8" : ""} hover:text-[#53bf63]`}><a href="#">experience</a></li>
+              <li className={` text-white text-2xl text-center w-full  ${show ? "mt-8" : ""} hover:text-[#53bf63]`}><a href="#home">Home</a></li>
+              <li className={` text-white text-2xl text-center w-full  ${show ? "mt-8" : ""}  z-10 hover:text-[#53bf63] `} ><a href="#about">About</a></li>
+              <li className={` text-white text-2xl text-center w-full  ${show ? "mt-8" : ""} hover:text-[#53bf63]`}><a href="#projects">Projects</a></li>
                       </ul>
                       </div>
         </nav>

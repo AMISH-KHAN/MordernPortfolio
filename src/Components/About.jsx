@@ -7,7 +7,7 @@ import { SiTailwindcss, SiRedux, SiExpress, SiMongodb, SiMongoose } from "react-
 export default function About() {
   return (
       <>
-              <section id="about" className='w-full h-screen '>
+              <section id="about" className='w-full mb-12  '>
               <div className='h-[7rem] bg-black text-white text-3xl flex items-center justify-center'>
                   About
                   </div>
