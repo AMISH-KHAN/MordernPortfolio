@@ -18,7 +18,7 @@ export default function About() {
               <img src="./assets/image/mumbai1.jpeg" className='rounded-xl h-[25rem]  md:h-[38rem] object-cover ' width={"100%"}  alt="" />
               </div>
             </div>
-            <div className=" w-full md:w-80 text-white">
+            <div className=" w-[80%] mx-auto md:mx-0 md:w-80 text-white">
               <h1  className='text-5xl font-light font-sans mb-4'>Amish khan</h1>
               <h1 className='text-4xl font-semibold font-sans mb-4 text-[#53bf63]'>Web Developer</h1>
               <div className=''> 
