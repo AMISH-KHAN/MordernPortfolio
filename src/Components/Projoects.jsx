@@ -9,6 +9,13 @@ const projectarr = [
         image:"./assets/image/shopvista.png"
     },
     {
+        name: "SyntaxHub",
+        disc: `Developed a web-based code editor using TypeScript, React, Tailwind CSS, Monaco Editor, and Socket.IO.`,
+        code: "https://github.com/AMISH-KHAN/SyntaxHub",
+        live: "https://syntaxhub.netlify.app/",
+        image:"./assets/image/SyntaxHub.png"
+    },
+    {
         name: "Tic-Tac-Toe",
         disc: "This is a multiplayer tic-tac-toe game it uses socket.io HTML CSS Javascript",
         code: "https://github.com/AMISH-KHAN/Tic-Tac_toe-app",
@@ -31,17 +38,17 @@ export default function Projoects() {
           <section id='projects' >
               <h1 className='h-[7rem] bg-black text-white text-3xl flex items-center justify-center'>Projects </h1>
               <div>
-              <div class="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
-                      <div class="flex md:flex-row flex-col justify-between gap-10"> 
+              <div className="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
+                      <div className="flex md:flex-row flex-col flex-wrap  gap-10"> 
                           {projectarr.map((project, index) => {
                               return (
-                                <div class="rounded overflow-hidden shadow-lg shadow-[#53bf63] " data-aos="zoom-in" data-aos-duration="1500">
-                                <div class="relative">
-                                          <img class="w-full h-[13rem]"
+                                <div key={index} className="rounded lg:w-[30%] md:w-[40%] w-full overflow-hidden shadow-lg shadow-[#53bf63] mx-auto  " data-aos="zoom-in" data-aos-duration="1500">
+                                <div className="relative">
+                                          <img className="w-full h-[13rem]"
                                               src={`${project.image}`}
                                               alt={`Image of ${project.image}` } />
                                         <div
-                                            class="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
+                                            className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25">
                                         </div>
                                                     
                                     {/* <div className='flex justify-between'> */}
@@ -49,29 +56,29 @@ export default function Projoects() {
                                     
                                     {project.live?<a href={`${project.live}`} target='_blank'>
                                         <div
-                                            class="absolute bottom-0 left-0 bg-[#000000ae]  px-4 py-2 text-white text-sm hover:bg-[#000000ce] hover:text-[#53bf63]  transition duration-500 ease-in-out">
+                                            className="absolute bottom-0 left-0 bg-[#000000ae]  px-4 py-2 text-white text-sm hover:bg-[#000000ce] hover:text-[#53bf63]  transition duration-500 ease-in-out">
                                             Live
                                         </div>
                                                       </a>:""}
                                                       
                                     <a href={`${project.code}`} target='_blank' >
                                         <div
-                                            class="absolute bottom-0 right-0  bg-[#000000ae] px-4 py-2 text-white text-sm hover:bg-[#000000ce] hover:text-[#53bf63] transition duration-500 ease-in-out">
+                                            className="absolute bottom-0 right-0  bg-[#000000ae] px-4 py-2 text-white text-sm hover:bg-[#000000ce] hover:text-[#53bf63] transition duration-500 ease-in-out">
                                             Code
                                         </div>
                                     </a>
                                     {/* </div> */}
                                    
                                 </div>
-                                <div class="px-6 py-4">
+                                <div className="px-6 py-4">
                     
                                     <h1
-                                              class="font-semibold text-lg text-white inline-blocktransition duration-500 ease-in-out">{ project.name}</h1>
-                                    <p class="text-white text-sm mt-4">
+                                              className="font-semibold text-lg text-white inline-blocktransition duration-500 ease-in-out">{ project.name}</h1>
+                                    <p className="text-white text-sm mt-4 ">
                                     {project.disc}
                                     </p>
                                 </div>
-                                <div class="px-6 py-4 flex flex-row items-center">
+                                <div className="px-6 py-4 flex flex-row items-center">
                                     
                                 </div>
                             </div>

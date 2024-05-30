@@ -83,7 +83,7 @@ export default function Header() {
                   <a href="https://www.linkedin.com/in/amish-khan/" target='_blank'><FaLinkedin className=' text-white text-5xl' /></a>
                   <a href="https://twitter.com/Amishk7618" target='_blank'> <FaSquareXTwitter  className=' text-white text-5xl'/></a>
               </div>
-              <a href="https://drive.google.com/file/d/1FuHndcmzwyIEvwoR9M7AnoLpwtF4qj0V/view?usp=sharing"  target='_blank'  >
+              <a href="https://drive.google.com/file/d/10vrLQXWDHZYh41lWZE65IpT6710T6E2p/view?usp=drive_link"  target='_blank'  >
               <div className=' w-fit m-auto px-8 py-2 text-white  my-12 border border-[#53bf63] hover:bg-[#53bf63] rounded-3xl cursor-pointer flex gap-2  items-center'>
                  <FaDownload /> <span>Resume</span>  
                   </div>
