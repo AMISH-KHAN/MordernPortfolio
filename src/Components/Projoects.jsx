@@ -12,7 +12,7 @@ const projectarr = [
         name: "SyntaxHub",
         disc: `Developed a web-based code editor using TypeScript, React, Tailwind CSS, Monaco Editor, and Socket.IO.`,
         code: "https://github.com/AMISH-KHAN/SyntaxHub",
-        live: "https://syntaxhub.netlify.app/",
+        live: "https://syntaxhub.onrender.com/",
         image:"./assets/image/SyntaxHub.png"
     },
     {
