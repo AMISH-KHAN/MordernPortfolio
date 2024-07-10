@@ -32,7 +32,7 @@ const projectarr = [
     }
 ]
 
-export default function Projoects() {
+export default function Projects() {
   return (
       <>
           <section id='projects' >
