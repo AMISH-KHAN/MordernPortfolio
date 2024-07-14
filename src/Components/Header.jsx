@@ -41,7 +41,7 @@ export default function Header() {
 
  
   useEffect(() => {
-      console.log(windowWidth);
+     
       if (windowWidth > 760) {
           setShow(false)
         }
