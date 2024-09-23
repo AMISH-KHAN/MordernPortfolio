@@ -3,10 +3,11 @@ import React from 'react'
 
 const projectarr = [
     {
-        name: "ShopVista",
-        disc: "This is an e-commerce website made using React.js bootstrap MUI",
-        code: "https://github.com/AMISH-KHAN/ShopVista-Frontend",
-        image:"./assets/image/shopvista.png"
+        name: "AI-cruiter",
+        disc: `AIcruiter is an AI-powered job platform that automates candidate filtering through AI-driven interviews, helping recruiters quickly identify top talent.`,
+        code: "https://github.com/AMISH-KHAN/AI-cruiter",
+        live: "https://ai-cruiter-bay.vercel.app/",
+        image:"./assets/image/Aicruiter.png"
     },
     {
         name: "SyntaxHub",
@@ -14,6 +15,12 @@ const projectarr = [
         code: "https://github.com/AMISH-KHAN/SyntaxHub",
         live: "https://syntaxhub.onrender.com/",
         image:"./assets/image/SyntaxHub.png"
+    },
+    {
+        name: "ShopVista",
+        disc: "This is an e-commerce website made using React.js bootstrap MUI",
+        code: "https://github.com/AMISH-KHAN/ShopVista-Frontend",
+        image:"./assets/image/shopvista.png"
     },
     {
         name: "Tic-Tac-Toe",
